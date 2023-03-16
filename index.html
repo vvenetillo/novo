@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    
+    <header id="nome">
+    <h1><p>NECAR <br></p></h1>  
+    <h4>Agende aqui seu serviço de forma muito mais prática e rápida.</h4>
+    </header>
+    <form action="agendamento.php" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" name="inome" id="idnome" placeholder="João da Silva Santos">
+        <p><label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com"></p>
+        <p>Agendamento</p>
+        <label for="data"><input type="date" name="data" id="idata"></label>
+        <label for="hora"><input type="time" name="hora" id="idhora"></label>
+        <p>Tipo de Veículo:</p>
+        <label for="observação">Carro</label>
+        <input type="checkbox" name="obs" id="obs">
+        <label for="obs">Moto</label>
+        <input type="checkbox" name="obs" id="obs">
+       <p><input type="text" placeholder="Observação sobre o serviço" maxlength="30" size="25"></p>
+    </form>
+        
+    
+
+    <button id="btn" onclick="clicar()" type="submit" value="Agendar">Agendar</button>
+
+    <footer>
+        &copy; Criado por Victor Venetillo
+    </footer>
+    
+</body>
+</html>
+
+
+        
+        
+        
+        
+      

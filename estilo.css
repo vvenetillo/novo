@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(0, 0, 78);
+    font: normal 15pt arial;
+    
+}
+header {
+    background: linear-gradient(to bottom, white, rgb(231, 255, 112));
+    text-align: center;
+    padding: 3px;
+    min-width: 150px;
+    margin: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border:none;
+    border-radius: 5px;
+    
+}
+
+header > p{
+  max-width: 600px;
+}
+
+
+form{
+    align-items: center;
+    padding-top: 550px;
+    background: rgba(138, 197, 220, 0.282);
+    margin-top: -50px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    color: white;
+    
+}
+
+input{
+  border-radius: 5px;
+  
+}
+
+input:hover{
+  animation: pulse 2s;
+  background-color: rgb(11, 55, 252);
+  color: white;
+  
+}
+#idnome{
+  border-radius: 5px;
+
+}
+#idnome:hover{
+  overflow: unset;
+  outline: none;
+  animation: pulse 2s;
+  background-color: rgb(11, 55, 252);
+  color: white;
+}
+
+   /* configuração do botão */
+
+#btn {
+    background-color: blue;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 0 transparent;
+   
+  }
+  
+  #btn:hover {
+    outline: none;
+    animation: pulse 1s infinite;
+    box-shadow: 0 0 0 10px rgba(246, 246, 247, 0.4);
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 transparent;
+    }
+    70% {
+      box-shadow: 0 0 0 10px rgba(252, 252, 255, 0.4);
+    }
+    100% {
+      box-shadow: 0 0 0 0 transparent;
+    }
+  }
+  
+
+
+footer{
+  padding: 35px;
+  text-align: center;
+  color: aliceblue;
+}
