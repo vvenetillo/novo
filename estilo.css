@@ -7,17 +7,12 @@ header {
     background: linear-gradient(to bottom, white, rgb(231, 255, 112));
     text-align: center;
     padding: 3px;
-    min-width: 150px;
     margin: 50px;
     margin-left: 450px;
     margin-right: 450px;
     border:none;
     border-radius: 5px;
     
-}
-
-header > p{
-  max-width: 600px;
 }
 
 
