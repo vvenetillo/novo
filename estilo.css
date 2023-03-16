@@ -3,6 +3,8 @@ body{
     font: normal 15pt arial;
     
 }
+
+
 header {
     background: linear-gradient(to bottom, white, rgb(231, 255, 112));
     text-align: center;
@@ -12,6 +14,8 @@ header {
     margin-right: 450px;
     border:none;
     border-radius: 5px;
+    max-width: max-content;
+    min-width: 350px
     
 }
 
@@ -26,12 +30,12 @@ form{
     padding: 20px;
     border-radius: 0 0 15px 15px;
     color: white;
-    
+    max-width: 600px;
+    min-width: 315px
 }
 
 input{
   border-radius: 5px;
-  
 }
 
 input:hover{
@@ -65,7 +69,8 @@ input:hover{
     font-size: 20px;
     cursor: pointer;
     box-shadow: 0 0 0 transparent;
-   
+    max-width: min-content;
+    min-width: 10px;
   }
   
   #btn:hover {
@@ -92,4 +97,5 @@ footer{
   padding: 35px;
   text-align: center;
   color: aliceblue;
+  
 }
