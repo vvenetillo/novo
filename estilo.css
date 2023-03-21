@@ -1,6 +1,10 @@
 body{
     background-color: rgb(0, 0, 78);
     font: normal 15pt arial;
+    display: grid;
+    min-height: 100px;
+    max-width: max-content;
+    min-width: 320px;
     
 }
 
@@ -14,9 +18,8 @@ header {
     margin-right: 450px;
     border:none;
     border-radius: 5px;
-    max-width: max-content;
-    min-width: 350px
-    
+    max-width: 750px;
+    min-width: 200px;
 }
 
 
@@ -30,8 +33,8 @@ form{
     padding: 20px;
     border-radius: 0 0 15px 15px;
     color: white;
-    max-width: 600px;
-    min-width: 315px
+    max-width: 750px;
+    min-width: 350px
 }
 
 input{
@@ -61,15 +64,15 @@ input:hover{
 #btn {
     background-color: blue;
     color: white;
-    display: block;
-    margin: 0 auto;
-    padding: 10px 20px;
+    display: flex;
+    margin: auto;
+    padding: 10px 10px;
     border: none;
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
     box-shadow: 0 0 0 transparent;
-    max-width: min-content;
+    max-width: 350px;
     min-width: 10px;
   }
   
